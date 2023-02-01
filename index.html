@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS - 21201099</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Syne+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    div{
+        display: block;
+    }
+    header{
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    #index{
+        padding: 50px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    #text{
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    hr{
+        border-width: 5px;
+        color: rgb(0, 0, 0);
+    }
+    .body{
+        padding: 100px 50px;
+    }
+    #awal{
+        border-left: 2px dotted;
+        border-top: 2px dotted;
+        border-bottom: 2px dotted;
+        color: black;
+        font-family: 'Syne Mono', monospace;
+        letter-spacing: 3px;
+        font-size: 20px;
+        text-shadow: 5px 3px 5px magenta;
+    }
+    #akhir{
+        border-right: 2px dotted;
+        border-top: 2px dotted;
+        border-bottom: 2px dotted;
+        color: black;
+        font-family: 'Syne Mono', monospace;
+        text-shadow: 5px 3px 5px magenta;
+    }
+    #form{
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px magenta;
+        letter-spacing: 3px;
+        border-style: dashed;
+    }
+    button#form:active{
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px magenta;
+        letter-spacing: 3px;
+        border-style: dashed;
+        color: white;
+        border-color: white;
+        background-color: magenta;
+    }
+    #tts{
+        font-family: 'Lobster', cursive;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+</style>
+<body class="container">
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#buy">Check Out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimony">Testimony</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="index">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/index1.jpg" class="d-block w-100" alt="Miku breaking outer walls">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/index2.jpg" class="d-block w-100" alt="Haruna's stance">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/index3.jpg" class="d-block w-100" alt="Miku playing piano">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="timeline" class="body">
+        <div class="row">
+            <div class="col-4">
+                <h2>Nendoroid</h2>
+                <hr width="50%"><br>
+                <p id="text">
+                    Nendoroid adalah merek dari figur berbahan plastik yang awalnya dibuat oleh <b>Good Smile Company</b> asal Jepang pada tahun 2006. Nendoroid biasanya berwujud karakter dari anime, manga, atau permainan video dan dirancang dengan kepala besar dan tubuh yang lebih kecil untuk memberi penampilan yang lucu.
+                    <br><br>
+                    Sekarang anda tak perlu repot-repot datang ke Jepang untuk membeli Nendoroid karena dengan menggunakan website ini anda dapat memesan Nendoroid dengan mudah & diantarkan sampai ke tempat anda dengan aman.
+                </p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-7 overflow-hidden">
+                <img src="img/init.jpg" alt="Nendoroid Harry Potter">
+            </div>
+        </div>
+    </section>
+    <section id="product" class="body">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h1>Produk</h1>
+                    <hr width="50%">
+                </center>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Denji</h5>
+                        <p class="card-text">Nendoroid Denji<br>Chainsaw Man<br><br>Rp. 720.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Crewmate Red</h5>
+                        <p class="card-text">Nendoroid Crewmate Red<br>Among Us<br><br>Rp. 500.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Predator</h5>
+                        <p class="card-text">Nendoroid Predator<br>Xenomorph<br><br>Rp. 990.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p4.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Alien</h5>
+                        <p class="card-text">Nendoroid Alien<br>Xenomorph<br><br>Rp. 990.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p5.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Hart</h5>
+                        <p class="card-text">Nendoroid Harry Hart (Galahad)<br>Kingsman<br><br>Rp. 710.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p6.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Kazuma Satou</h5>
+                        <p class="card-text">Nendoroid Kazuma<br>Konosuba<br><br>Rp. 620.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p7.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hatsune Miku</h5>
+                        <p class="card-text">Nendoroid Hatsune Miku<br>SEKAI of the Stage Ver.<br><br>Rp. 920.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p8.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Doctor</h5>
+                        <p class="card-text">Nendoroid Doctor<br>Arknights<br><br>Rp. 880.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="buy" class="body">
+        <form action="#" method="get" name="form1">
+            <textfield>
+                <div class="row">
+                    <div class="col-12">
+                        <center>
+                            <h1>Pesan Sekarang</h1>
+                            <hr width="50%">
+                        </center>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6" id="awal">NAMA LENGKAP</div>
+                    <div class="col-6" id="akhir"><input type="text" name="inName" size="50" placeholder="Nama anda" pattern="[A-Za-z]{2,}" title="Isi setidaknya dua karakter" required autofocus></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">JENIS KELAMIN</div>
+                    <div class="col-6" id="akhir">
+                        <input type="radio" name="inSex" value="L">Laki-laki&nbsp&nbsp&nbsp&nbsp
+                        <input type="radio" name="inSex" value="P">Perempuan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">ALAMAT</div>
+                    <div class="col-6" id="akhir"><textarea name="inAddress" cols="50" rows="5" placeholder="Alamat anda" required></textarea></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">NO. TELEPON</div>
+                    <div class="col-6" id="akhir"><input type="number" name="inNumber" pattern="[0-9]{13}" title="Maks. 13 karakter" placeholder="Maks. 13 karakter" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">EMAIL</div>
+                    <div class="col-6" id="akhir"><input type="email" name="inEmail" placeholder="Email anda" size="50%" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">PRODUK YANG INGIN DIPESAN</div>
+                    <div class="col-6" id="akhir">
+                        <input type="checkbox" name="inP1" value="p1">Denji - Chainsaw&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="checkbox" name="inP2" value="p2">Crewmate Red - Among Us<br><br>
+                        <input type="checkbox" name="inP3" value="p3">Predator - Xenomorph&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="checkbox" name="inP4" value="p4">Alien - Xenomorph<br><br>
+                        <input type="checkbox" name="inP5" value="p5">Harry Hart (Galahad) - Kingsman&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="checkbox" name="inP6" value="p6">Kazuma - Konosuba<br><br>
+                        <input type="checkbox" name="inP7" value="p7">Hatsune Miku - SEKAI of the Stage Ver.&nbsp
+                        <input type="checkbox" name="inP8" value="p8">Doctor - Arknights
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6" width="50%" align="center"><button id="form" type="submit" value="submit" onclick="email(document.form1.inEmail)">PESAN</button></div>
+                    <div class="col-6" width="50%" align="center"><button id="form" type="reset" value="reset">HAPUS</button></div>
+                </div>
+            </textfield>
+        </form>
+    </section>
+    <section id="testimony" class="body">
+        <form action="#" method="get" name="myForm">
+            <textfield>
+                <div class="row">
+                    <div class="col-12">
+                        <center>
+                            <h1>Testimoni</h1>
+                            <hr width="50%">
+                        </center>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6" id="awal">NAMA LENGKAP</div>
+                    <div class="col-6" id="akhir"><input type="text" name="inName" size="50" placeholder="Nama anda" pattern="[A-Za-z]{2,}" title="Isi setidaknya dua karakter" required autofocus></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">JENIS KELAMIN</div>
+                    <div class="col-6" id="akhir">
+                        <input type="radio" name="inSex" value="L">Laki-laki&nbsp&nbsp&nbsp&nbsp
+                        <input type="radio" name="inSex" value="P">Perempuan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">ALAMAT</div>
+                    <div class="col-6" id="akhir"><textarea name="inAddress" cols="50" rows="5" placeholder="Alamat anda" required></textarea></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">NO. TELEPON</div>
+                    <div class="col-6" id="akhir"><input type="text" name="inNumber" pattern="[0-9]{13}" title="Maks. 13 karakter" placeholder="Maks. 13 karakter" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">EMAIL</div>
+                    <div class="col-6" id="akhir"><input type="email" name="inEmail" placeholder="Email anda" size="50%" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="awal">PESAN & KESAN</div>
+                    <div class="col-6" id="akhir"><textarea name="inMessage" cols="50" rows="10" placeholder="Tuliskan kesan anda terhadap pelayanan website jual beli ini" required></textarea></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6" width="50%" align="center"><button id="form" type="submit" value="submit" onclick="email(document.form1.inEmail)">KIRIM</button></div>
+                    <div class="col-6" width="50%" align="center"><button id="form" type="reset" value="reset">HAPUS</button></div>
+                </div>
+            </textfield>
+        </form>
+    </section>
+    <section id="about" class="body">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h1>Tentang Saya</h1>
+                    <hr width="50%">
+                </center>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6" id="tts">
+                Nama&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Ficho Pranandasya Andrian Pratama<br>
+                NIM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: 21201099<br>
+                Semester&nbsp: 3<br>
+                Alamat&nbsp&nbsp&nbsp: Jl. Mendit Timur 63, Mangliawan, Pakis<br><br>
+                Facebook&nbsp&nbsp&nbsp&nbsp: Ficho Pranandasya AP<br>
+                Discord&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Ғяαи Ҝнυи#0780<br>
+                Twitter&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: @saver_time__<br>
+                Reddit&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: FinalAstronomer2747<br>
+                WhatsApp&nbsp&nbsp: 085755450154<br>
+                GitHub&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: FranPratama<br>
+                Instagram&nbsp: saver_time__<br>
+                Xbox&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: CitedHurdle76<br><br>
+            </div>
+            <div class="col-6"><img src="img/me.jpg" height="450px" style="box-shadow: 8px -8px 8px black;"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12" align="center"><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=mendit timur&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div></div>
+        </div>
+    </section>
+    <section id="card" class="body">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h1>Kartu UAS</h1>
+                    <hr width="50%">
+                </center>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <img src="img/kartu.jpg" alt="Kartu UAS">
+                </center>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: aqua;">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <p><b><h3>2022 © Ficho Pranandasya Andrian Pratama. All Rights Reserved</h3></b></p>
+                </center>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
